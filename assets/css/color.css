@@ -1938,7 +1938,15 @@
 }
 
 .service-block-12 .inner-box .icon-box{
-  background: #ee7b25;
+  background: rgba(238, 123, 37, 0.9) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 15px rgba(238, 123, 37, 0.2),
+              inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 500ms ease;
+  position: relative;
+  z-index: 2;
 }
 
 .service-block-12 .inner-box .lower-content .link a:hover{
